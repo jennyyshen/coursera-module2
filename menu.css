@@ -1,0 +1,78 @@
+
+#menu{
+	text-align: center;
+	color: red;
+}
+
+#container{
+	width: 90%; 
+	margin: auto;
+}
+
+.menu-item{
+	border-color: black; 
+	border-style: solid; 
+	width: 30%; 
+	float: left;
+	margin: 1%; 
+	background-color: gray; 
+}
+
+.item-name{
+	float: right;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	width: 30%; 
+	margin-bottom: 5px; 
+	text-align: center; 
+}
+
+
+p{
+	clear: left; 
+}
+
+#chicken{
+	background-color: pink;
+}
+
+#beef{
+	background-color: red;
+}
+
+#sushi{
+	background-color: blue;
+}
+
+/* responsive layout for ipad */
+
+@media (min-width: 768px) and (max-width: 421px){
+	#chicken-menu{
+		width: 45%; 
+}
+	#beef-menu{
+		width: 45%; 
+		margin-left: 2%; 
+	}
+
+	#sushi-menu{
+		width: 100%; 
+		clear: left; 
+	}
+}
+
+/*responsive layout for mobile devices */
+@media(max-width: 420px){
+	.menu-item{
+		width: 100%; 
+		clear: left; 
+	} 
+	}
+
+}
+
+
+
+
+
+}
